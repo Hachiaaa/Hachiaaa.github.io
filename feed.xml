@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2021 16:56:52 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2021 16:56:52 +0800</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2021 20:41:55 +0800</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2021 20:41:55 +0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -215,7 +215,11 @@
 
 &lt;p&gt;类型断言用来手动指定一个值的类型，有两种方式，&lt;code class=&quot;highlighter-rouge&quot;&gt;值 as 类型&lt;/code&gt; 或者 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;类型&amp;gt;值&lt;/code&gt;。强烈建议只使用第一种，因为第二种会和 html 以及一些组件表示相混淆。&lt;/p&gt;
 
-&lt;p&gt;类型断言一般有四种 1.将一个联合类型断言为其中一个联合子类型 2.将一个父类断言为更加具体的子类 3.将任意一个类型断言为 any（常用于第三方类型接口错误的情况） 4.将 any 断言为一个更加具体的类型&lt;/p&gt;
+&lt;p&gt;类型断言一般有四种&lt;br /&gt;
+1.将一个联合类型断言为其中一个联合子类型&lt;br /&gt;
+2.将一个父类断言为更加具体的子类&lt;br /&gt;
+3.将任意一个类型断言为 any（常用于第三方类型接口错误的情况）&lt;br /&gt;
+4.将 any 断言为一个更加具体的类型&lt;/p&gt;
 
 &lt;p&gt;类型断言的限制，简单来说 A 兼容 B，那么 A 可以被断言为 B，B 也可以被断言为 A。那么什么是 ts 中的兼容呢？举个 🌰，Person 包含 Animal 中的所有变量，在实现上跟&lt;code class=&quot;highlighter-rouge&quot;&gt;interface Person extends Animal&lt;/code&gt;一样。&lt;/p&gt;
 
@@ -341,7 +345,7 @@
 
 &lt;h2 id=&quot;typescript-的未来&quot;&gt;typescript 的未来&lt;/h2&gt;
 
-&lt;p&gt;技术圈总是切换地非常之快，各种新的技术层出不穷，新老交替。就如 jquery 统一 dom 操作之后，随着 es6 的出现以及前端各大框架，jQuery 淡出历史舞台一样。人们总是会发现一些之前的痛点，并试图用新的技术来解决它。&lt;/p&gt;
+&lt;p&gt;技术圈总是切换地非常之快，各种新的技术层出不穷，新老交替。就如 jquery 统一 dom 操作淘汰了原生 js，紧接着 es6 的出现以及前端各大框架的出现，又淘汰了 jquery 一样。人们总是会发现一些之前的痛点，并试图用新的技术来解决它。&lt;/p&gt;
 
 &lt;p&gt;typescript 是一门非常好的语言，但同时我相信也会有一些其他类似的开源项目来与之匹敌。&lt;code class=&quot;highlighter-rouge&quot;&gt;rescript&lt;/code&gt;就是其中一颗新星，它的前身是&lt;code class=&quot;highlighter-rouge&quot;&gt;react&lt;/code&gt;作者&lt;code class=&quot;highlighter-rouge&quot;&gt;Jordan Walke&lt;/code&gt;写的&lt;code class=&quot;highlighter-rouge&quot;&gt;ReasonML&lt;/code&gt;。有一些优点，比如从语言层面就禁止了&lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt;这一类型（据相关估计，每年在编程领域因为空值引起的错误给行业带来的损失高达数十亿美元），又比如从语法层面禁止了 any（所以每个变量都是 100%有自己确定的类型）。&lt;/p&gt;
 </description>
