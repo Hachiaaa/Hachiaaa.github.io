@@ -1,13 +1,13 @@
 # Site settings ...
-uri: domain.com
-url: https://domain.com
-name: Your name
-title: Mangan Jekyll Theme
-email: example@domain.com
-author: username
-keywords: "Your, Keyword, Here"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil, velit odio quia autem quos. Natus itaque sint, nisi fuga dolorum. Iste ea cumque, aliquam dignissimos vitae labore atque minima?"
-social_username: username
+uri: https://hachiaaa.github.io
+url: https://hachiaaa.github.io
+name: Wang GuoQi
+title: 🐟
+author: wangguoqi
+keywords: "Personal blog"
+description: "👋 My name is wang guoqi, I explain with codes and words"
+github_username: Hachiaaa
+twitter_username: kingguoqi
 
 # Build settings ...
 sass:
